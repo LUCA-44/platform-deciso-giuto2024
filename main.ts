@@ -25,7 +25,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.ne4, function (sprite, otherSpri
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (mySprite.vy == 0) {
-        mySprite.vy = -150
+        mySprite.vy = -170
     }
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.ne3, function (sprite, otherSprite) {
